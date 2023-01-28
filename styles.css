@@ -30,6 +30,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 150px;
+    padding-bottom: 100px;
 }
 
 .left-links {
@@ -61,7 +62,7 @@ a {
 }
 
 img {
-    height: auto;
+    height: 230px;
     width: 500px;
     margin-right: 170px;
 }
@@ -73,3 +74,6 @@ img {
 .text {
     margin-left: 205px;
 }
+
+/* Could have used padding in part1 on left and right size. I think both sides are equally apart from edges
+. Maybe I can also use justify content: space-around */

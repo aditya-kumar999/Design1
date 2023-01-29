@@ -123,3 +123,22 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.part3 {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 125px;
+}
+
+.author {
+    font-weight: 550;
+    font-size: 25px;
+    padding-left: 700px;
+}

@@ -77,3 +77,49 @@ img {
 
 /* Could have used padding in part1 on left and right size. I think both sides are equally apart from edges
 . Maybe I can also use justify content: space-around */
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info img {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+.img:hover {
+    padding: 0;
+}
+
+.img {
+    border-radius: 8px;
+    border: 5px solid royalblue;
+}
+
+.text2 {
+    color: #3882F6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 0 250px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
